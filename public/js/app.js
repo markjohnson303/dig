@@ -1,0 +1,1 @@
+angular.module('digApp', ['ngRoute', 'appRoutes', 'MainCtrl', 'SongCtrl', 'SongService']);

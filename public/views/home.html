@@ -1,0 +1,14 @@
+<div class="jumbotron text-center">
+	<h1>Dig</h1>
+
+	<p>share a song with the world</p>
+</div>
+
+<section ng-controller="SongController as songs">
+ <ul id="songs">
+      <li ng-repeat="song in songs.all" data-id="{{song._id}}">
+        <strong>{{song.spotifyURL}}</strong> <em>{{song.notes}}</em> 
+      </li>
+    </ul>
+
+    </section>
