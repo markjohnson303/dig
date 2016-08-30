@@ -4,11 +4,13 @@
 	<p>share a song with the world</p>
 </div>
 
-<section ng-controller="SongController as songs">
- <ul id="songs">
-      <li ng-repeat="song in songs.all" data-id="{{song._id}}">
-        <strong>{{song.spotifyURL}}</strong> <em>{{song.notes}}</em> 
-      </li>
-    </ul>
+<iframe  src="https://embed.spotify.com/?uri=spotify:track:0u3sC19VACccXxjKXJROQj" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
 
-    </section>
+<section ng-controller="SongController as songs">
+	<div ng-repeat="song in songs.all" >
+	<iframe ng-src="https://embed.spotify.com/?uri={{song.spotifyURL}}" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+	<p>hi</p>
+	</div>
+	
+
+</section>

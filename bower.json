@@ -2,11 +2,10 @@
   "name": "angular",
   "version": "1.0.0",
   "dependencies": {
-    "bootstrap": "latest",
     "angular": "latest",
     "angular-route": "latest"
   },
-  "homepage": "https://github.com/scotch-io/starter-node-angular",
+  "homepage": "",
   "authors": [
     "Mark Johnson <markjohnson303@gmail.com>"
   ],

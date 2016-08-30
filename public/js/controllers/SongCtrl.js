@@ -11,8 +11,8 @@ angular.module('SongCtrl', []).controller('SongController', function($scope, $ht
 	   $http
 	     .get('/api/songs')
 	     .then(function(response){
-	       self.all = response.data.songs;
-	       console.log(response.data.songs);
+	       self.all = response.data;
+	       console.log(response.data);
 	   });
 	 }
 
